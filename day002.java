@@ -1,11 +1,10 @@
 public class Codingday2 {
-public static void main(String[]args) {
-System.out.print("Halo Fifaaa");
-System.out.print("19");
+public static void main(String[] args) {
+System.out.print("Halo ");             
+System.out.print("Fifaaa!");          
 
-System.out.println("Fifa");
-System.out.println("19");
-
-System.out.printf("nama:%s, umur:%d\n", "fifaaa", 19);
+System.out.println("Halo Fifaaa!");
+        
+System.out.printf("Umur saya %d tahun.\n", 19);
     }
 }
