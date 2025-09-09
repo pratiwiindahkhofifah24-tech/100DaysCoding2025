@@ -1,6 +1,6 @@
 public class Codingday2 {
-public static void main(String[] args) {
-System.out.print("Halo Fifaaa ");
+public static void main(String[]args) {
+System.out.print("Halo Fifaaa");
 System.out.print("19");
 
 System.out.println("Fifa");
