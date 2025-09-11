@@ -1,4 +1,4 @@
-public class Codingday1 {
+public class Codingday01 {
 public static void main (String[] args){
 System.out.println("Hello World");
 }
