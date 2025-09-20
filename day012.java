@@ -20,6 +20,7 @@ public class Codingday12 {
         boolean saya_pintar = Biodata.nextBoolean();
         System.out.println("saya_tinggi");
         char saya_tinggi = Biodata.next().charAt(0);
+        Biodata.netxLine();
         System.out.println("berat_badanSaya");
         double berat_badanSaya = Biodata.nextDouble();
         
