@@ -9,26 +9,22 @@ public class Codingday12 {
         
         System.out.println("nama_saya");
         String nama_saya = Biodata.nextLine();
-        
+        Biodata.nextLine();
+
         System.out.println("saya_umur");
         byte saya_umur = Biodata.nextByte();
-        Biodata.nextLine(); 
 
         System.out.println("nim_saya");
         int nim_saya = Biodata.nextInt();
-        Biodata.nextLine();
         
         System.out.println("umur_adikSaya");
         short umur_adikSaya = Biodata.nextShort();
-        Biodata.nextLine();
         
         System.out.println("tanggal_lahirSaya");
         long tanggal_lahirSaya = Biodata.nextLong();
-        Biodata.nextLine();
         
         System.out.println("saya_pintar");
         boolean saya_pintar = Biodata.nextBoolean();
-        Biodata.nextLine();
         
         System.out.println("jenis_kelamin");
         char jenis_kelamin = Biodata.next().charAt(0);
