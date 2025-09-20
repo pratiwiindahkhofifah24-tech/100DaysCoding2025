@@ -1,4 +1,5 @@
-//biodata sederhana
+//BIODATA SEDERHANA
+
 import java.util.Scanner;
 
 public class Codingday12 {
@@ -8,29 +9,44 @@ public class Codingday12 {
         
         System.out.println("nama_saya");
         String nama_saya = Biodata.nextLine();
+        
         System.out.println("saya_umur");
-        int saya_umur = Biodata.nextInt();
+        byte saya_umur = Biodata.nextByte();
+        Biodata.nextLine(); // bersihin newline
+        
         System.out.println("nim_saya");
-        long nim_saya = Biodata.nextLong();
+        int nim_saya = Biodata.nextInt();
+        Biodata.nextLine(); // bersihin newline
+        
         System.out.println("umur_adikSaya");
-        byte umur_adikSaya = Biodata.nextByte();
+        short umur_adikSaya = Biodata.nextShort();
+        Biodata.nextLine(); // bersihin newline
+        
         System.out.println("tanggal_lahirSaya");
-        short tanggal_lahirSaya = Biodata.nextShort();
+        long tanggal_lahirSaya = Biodata.nextLong();
+        Biodata.nextLine(); // bersihin newline
+        
         System.out.println("saya_pintar");
         boolean saya_pintar = Biodata.nextBoolean();
-        System.out.println("saya_tinggi");
-        char saya_tinggi = Biodata.next().charAt(0);
-        Biodata.netxLine();
+        Biodata.nextLine(); // bersihin newline
+        
+        System.out.println("jenis_kelamin");
+        char jenis_kelamin = Biodata.next().charAt(0);
+        Biodata.nextLine(); // bersihin newline
+        
         System.out.println("berat_badanSaya");
         double berat_badanSaya = Biodata.nextDouble();
         
         System.out.println("\nBiodataSederhana");
-        System.out.println("nama_saya :" + nama_saya);
-        System.out.println("saya_umur :" + saya_umur);
-        System.out.println("nim_saya :" + nim_saya);
-        System.out.println("umur_adikSaya :" + umur_adikSaya);
-        System.out.println("tanggal_lahirSaya :" + tanggal_lahirSaya);
-        System.out.println("saya_pintar" + saya_pintar);
-        System.out.println("saya_tinggi" + saya_tinggi + "tinggi");
-       System.out.println("berat_badanSaya :" + berat_badanSaya);
-    }}
+        System.out.println("nama_saya:" + nama_saya);
+        System.out.println("saya_umur:" + saya_umur);
+        System.out.println("nim_saya:" + nim_saya);
+        System.out.println("umur_adikSaya:" + umur_adikSaya);
+        System.out.println("tanggal_lahirSaya:" + tanggal_lahirSaya);
+        System.out.println("saya_pintar: " + saya_pintar);
+        System.out.println("jenis_kelamin: " +jenis_kelamin);
+        System.out.println("berat_badanSaya:" + berat_badanSaya);
+
+        Biodata.close();
+    }
+}
