@@ -1,3 +1,4 @@
+//mengubah string jadi tipe data primitif
 public class Codingday14 {
     public static void main(String[] args) {
         int angka = Integer.parseInt("123");
