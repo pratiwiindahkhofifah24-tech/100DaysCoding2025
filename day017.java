@@ -1,7 +1,7 @@
 public class Codingday17 {
 public static void main(String[] args) {
 
-	//operator aritmatika modulus atau sisa bagi(%)
+//operator aritmatika modulus atau sisa bagi(%)
 		int a = 9;
     int b = 3;
     int sisa = a % b;
