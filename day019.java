@@ -2,7 +2,7 @@
 
 public class Codingday19 {
 public static void main(String[] args) {
-long a1 = 10000000;
+int a1 = 100;
 byte a2 = (byte) a1;
 		
 System.out.println("hasil int a1 :" + a1);
