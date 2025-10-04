@@ -3,11 +3,11 @@ import java.util.Scanner;
 
 public class Codingday27 {
 public static void main(String[] args) {
-  Scanner in = new Scanner (System.in);
+  Scanner sc = new Scanner (System.in);
      System.out.printf("input : ");
-     int a = in.nextInt();       
+     int a = sc.nextInt();       
      System.out.printf("input : ");
-     int b = in.nextInt();
+     int b = sc.nextInt();
         a = a + b;
         b = a - b;
         a = a - b;
